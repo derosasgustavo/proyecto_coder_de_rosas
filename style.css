@@ -188,6 +188,11 @@ body{
     justify-content: space-around;
     gap:20px;
 }
+.fotosTrabajos3d{
+    margin-left:auto;
+    margin-right:auto;
+
+}
 .parrafos3d, .parrafoStand{
     margin-left:auto;
     margin-right:auto;
@@ -398,8 +403,9 @@ body{
 .fotosTrabajos3d { 
     display: flex;
     flex-direction: column;
+    justify-items: center;
     gap: 30px;
-    margin-left: 25%;   }
+     }
 
 /* para medida 320px pag stand*/    
 .seccionStand{ 
