@@ -88,7 +88,7 @@
 hr{
     border: solid 2px orangered;}
 body{
-    background-color:rgb(173, 170, 170)}
+    background-image: radial-gradient(circle, #252526, #414447, #5e6768, #808b86, #abafa3);}
 
 .paginaPrincipal, .seccionStand{
     display: flex;
@@ -188,6 +188,11 @@ body{
     justify-content: space-around;
     gap:20px;
 }
+.parrafos3d, .parrafoStand{
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .tituloSecundarioEmpresa, .tituloSecundarioMarketing,
  .nuestroStaff
 {
@@ -235,10 +240,7 @@ body{
     height: 350;
     margin-left: 40%;
 }
-.parrafoStand {
-    width: 75%;
-    margin-left: 140px;
-}
+
 .parrafos3d{
     margin-top: 80px;
 }
@@ -398,14 +400,11 @@ body{
     flex-direction: column;
     gap: 30px;
     margin-left: 25%;   }
-.parrafos3d{ 
-     margin-left: 25%;    }
+
 /* para medida 320px pag stand*/    
 .seccionStand{ 
     gap: 20px;}
-.parrafoStand {
-    width: 75%;
-    margin-left: 10%;}
+
 #montajeStand {
     width:300;
      height:150;
