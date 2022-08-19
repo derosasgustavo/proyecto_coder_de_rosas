@@ -94,15 +94,27 @@
 
 }
 
+
 /* cambiando de color de estilo nav*/
 
 .navbar-brand{
-    color: orangered
+    color: orangered;
+    
+
+}
+.logo-navbar{
+    margin-left: 80%;
 }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: orangered;
     
 }
+
+.logo-navbar{
+    height: 25%;
+    width: 25%;
+}
+
 
 
 
@@ -280,7 +292,7 @@ body{
     height: 70px;
     width: 70px;
     position: fixed;
-    top: 24%;
+    top: 19%;
     left: 10%;
 }
 .tituloContacto{
