@@ -66,7 +66,7 @@
     
     
 }
-
+/* css de sector navegacion nav reemplazado por bootstrap
 .sectorNav {
     background-color:rgb(102, 102, 102);
     
@@ -84,6 +84,26 @@
     background-color: #f6a66c;
     transition-duration:  1s;
     } 
+*/
+
+
+/* cambiando de color el boton de nav*/
+.btn-outline-success{
+    color:orangered;
+    border-color: rgb(255, 149, 0);
+
+}
+
+/* cambiando de color de estilo nav*/
+
+.navbar-brand{
+    color: orangered
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: orangered;
+    
+}
+
 
 
 hr{
@@ -260,8 +280,8 @@ body{
     height: 70px;
     width: 70px;
     position: fixed;
-    top: 7%;
-    left: 90%;
+    top: 24%;
+    left: 10%;
 }
 .tituloContacto{
     margin-top: 50px;
@@ -362,7 +382,7 @@ body{
 /* para medida 320px pag principal*/
 
 @media screen and (max-width: 480px){
-
+/* css de sector navegacion nav reemplazado por bootstrap
 .menuNavegacion{
     margin-top: 2px;
     display:block;
@@ -372,18 +392,18 @@ body{
     border-radius: 20px;
     margin-top: 4px;
     width: 70%;
-}
+}*/
 .sectorSubTitulo{ display:none;}
 .sectorTelefono{ display:none;}
 .sectorTitulo {      
     font-size: 30px;
     padding-top: 10px;  }  
 .iconoWhatsapp {
-    height: 70px;
-    width: 70px;
+    height: 45px;
+    width: 45px;
     position: fixed;
-    top: 40%;
-    left: 70%; }   
+    top: 32%;
+    left: 10%; }   
 .menuNavegacion{ 
     padding: 4px;}
 .sectorFotosLink {
@@ -440,7 +460,8 @@ body{
 
   }  
 
-  @media only screen and (min-width: 481px) and (max-width: 720px){
+  @media only screen and (min-width: 481px) and (max-width: 991px){
+    /* css de sector navegacion nav reemplazado por bootstrap
 
     .menuNavegacionli{ border: 1px ridge rgb(26, 26, 27);
         background-color: rgb(161, 161, 159);
@@ -450,16 +471,18 @@ body{
     .menuNavegacion{
         margin-top: 2px;
         display:block;
-        padding-top: 10px;       }
+        padding-top: 10px;       }*/
     
     .sectorTelefono{ display:none;}
     .sectorTitulo {      
         font-size: 30px;
         padding-top: 10px;  }  
     .iconoWhatsapp {
+        height: 50px;
+        width: 50px;
         position: fixed;
-        top: 40%;
-        left: 74%; }   
+        top: 32%;
+        left: 10%; }   
     .sectorFotosLink {
          margin: 20px; 
          margin-bottom: 25px;   }
