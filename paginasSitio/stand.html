@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Did Carteleria</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
+    
+    
 </head>
 
 <body>
@@ -23,26 +26,45 @@
 
         </section>
         <section class="sectorTelefono">
-            <h4></h4>
+            <h4> </h4>
         </section>
-       
        
     </header>
 
     <section> 
-        
-        <nav class="sectorNav">
-            <ul class="menuNavegacion">
-
-                <li class="menuNavegacionli"><a href="../index.html">Home </li></a> 
-                <li class="menuNavegacionli"> <a href="../paginasSitio/carteleria.html"> Carteleria </li></a>
-                <li class="menuNavegacionli"> <a href="../paginasSitio/impresiones3d.html"> Impresiones 3D</li></a>
-                <li class="menuNavegacionli"> <a href="../paginasSitio/stand.html"> Stand</li></a>
-                <li class="menuNavegacionli"> <a href="../paginasSitio/contacto.html"> Contacto</li></a>
-
-            </ul>
-
+        <nav class="navbar navbar-dark bg-dark">
+       
+           
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="../index.html">Home</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../paginasSitio/carteleria.html">Carteleria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="../paginasSitio/impresiones3d.html">Impresiones 3D</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="../paginasSitio/stand.html">Stands</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="../paginasSitio/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+                      <button type="button" class="btn btn-outline-warning">Warning</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
         </nav>
+         
+        
     </section>
     
 
@@ -102,6 +124,6 @@
 
 
     </footer>
-    
+    <script src="../js/bootstrap.bundle.min.js"></script>   
 </body>
 </html>  
