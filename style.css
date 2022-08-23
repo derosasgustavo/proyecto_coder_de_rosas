@@ -35,11 +35,12 @@
   }
 .sectorTitulo {
     grid-area: titulo;
-    color:rgb(255, 149, 0);    
+    color:rgb(12, 11, 10);    
     font-size: 50px;
     display:flex;
     flex-wrap: wrap;
-}
+    animation-duration:2s;
+    animation-name: slidein;}
 .sectorSubTitulo {
     grid-area: subtitulo;
     color : orangered;
@@ -121,7 +122,9 @@
 hr{
     border: solid 1px orangered;}
 body{
-    background-image: radial-gradient(circle, #252526, #414447, #5e6768, #808b86, #abafa3);}
+    background-image: radial-gradient(circle, #252526, #414447, #5e6768, #808b86, #abafa3);
+    animation-name: bg-change;
+}
 
 .paginaPrincipal, .seccionStand{
     display: flex;
@@ -220,6 +223,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     gap:20px;
+    
 }
 .fotosTrabajos3d{
     margin-left:auto;
@@ -234,7 +238,7 @@ body{
 .tituloSecundarioEmpresa, .tituloSecundarioMarketing,
  .nuestroStaff
 {
-    margin-left: 40%;
+    color:orangered;
     margin-bottom: 50px;     
     align-content: center;
 }
@@ -270,13 +274,7 @@ body{
     box-shadow: 7px 7px 15px #592A08;
     margin-bottom: 70px;
     padding: 20px;
-    background-color: rgb(101, 101, 101);
-}
-
-#montajeStand {
-    width: 600;
-    height: 350;
-    margin-left: 40%;
+    background-color: rgb(186, 180, 180);
 }
 
 .parrafos3d{
@@ -288,12 +286,24 @@ body{
     margin-left: 20%;
     margin-bottom: 100px;
 }
+
+    
+
 .iconoWhatsapp {
+<<<<<<< HEAD
     height: 70px;
     width: 70px;
     position: fixed;
     top: 19%;
     left: 10%;
+=======
+    height: 50px;
+    width: 50px;
+    margin-right:150px
+    
+    
+    
+>>>>>>> modificaciones
 }
 .tituloContacto{
     margin-top: 50px;
@@ -312,6 +322,7 @@ body{
     width: 550px;
     height: 350px;
     margin-left: 80px;
+    margin-top:20px;
     border: solid 2px blanchedalmond;
     border-radius: 50px 50px ;
     box-shadow: 7px 7px 15px #592A08;
@@ -330,17 +341,16 @@ body{
 #consulta {
     height: 200px;
     width: max-content;}
-.footer{
-    display: flex;
-    justify-content:flex-start
-}
-.redesSocialesIconos{
+
+
+.icono-redes{
     width: 45px;
-    height: 45px; 
-    display: inline;
-    flex-wrap: wrap;
-    margin-left: 50px;
-    margin-top: 20px;
+    height: 45px;     
+   
+}
+.col-2{
+    margin-bottom:2%;
+    
 }
 
 .sectorFotosLink:hover .fotoStand {
@@ -385,12 +395,16 @@ body{
     align-items: baseline;
     justify-content: flex-end;
 }
-.logo__footer{
-    display:inline-flex;
-    margin-left: 25%;
-    width: 110px;
-    height: 110px;
+
+.logo-did-footer{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
 }
+#titulo-footer{
+   
+display:flex;
+flex-direction: row;}
 /* para medida 320px pag principal*/
 
 @media screen and (max-width: 480px){
@@ -411,11 +425,11 @@ body{
     font-size: 30px;
     padding-top: 10px;  }  
 .iconoWhatsapp {
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
     position: fixed;
-    top: 32%;
-    left: 10%; }   
+    bottom:8%;
+    left: 7%; }   
 .menuNavegacion{ 
     padding: 4px;}
 .sectorFotosLink {
@@ -493,8 +507,8 @@ body{
         height: 50px;
         width: 50px;
         position: fixed;
-        top: 32%;
-        left: 10%; }   
+        bottom:8%;
+        left: 7%;}   
     .sectorFotosLink {
          margin: 20px; 
          margin-bottom: 25px;   }
