@@ -2,8 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
-    
 }
 /*header para todos las paginas */
 
@@ -14,13 +12,13 @@
     align-items: center;
     grid-template-areas: "logo titulo titulo titulo"
                           "logo subtitulo subtitulo telefono"; 
-    background-color:rgb(75, 74, 74);
+    
     padding-bottom: 20px;
 }
 .sectorLogo {
     grid-area: logo;
     background-size: cover;
-    background-color:rgb(75, 74, 74);
+    
 }
 .sectorLogo {
     animation-duration: 2s;
@@ -57,41 +55,16 @@
 }
 
 /* menu navegacion comun*/
-.menuNavegacion{
-    display:inline-flex;
-    flex-wrap: wrap;
-    justify-content:space-between ;
-    gap:20px;
-    background-color:rgb(102, 102, 102);
-    
-    
-    
-}
+
 .iconoWhatsapp {
     height: 50px;
     width: 50px;
     position: fixed;
     bottom:7%;
-    left: 7%; }   
-/* css de sector navegacion nav reemplazado por bootstrap
-.sectorNav {
-    background-color:rgb(102, 102, 102);
-    
-}
-.menuNavegacionli{
-    list-style: none;    
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20px;
-    
-    
-    }
+    left: 7%; 
+      }
 
-.menuNavegacionli:hover{
-    background-color: #f6a66c;
-    transition-duration:  1s;
-    } 
-*/
+   
 
 
 /* cambiando de color el boton de nav*/
@@ -146,11 +119,14 @@
 
 }
 
-/*hr{
-    border: solid 1px orangered;}*/
+
 body{
-    background-image: radial-gradient(circle, #252526, #414447, #5e6768, #808b86, #abafa3);
-    animation-name: bg-change;
+    background-image: url(imagenesproyecto/background-g4691bdaf0_1920.jpg);
+    background-position: center center;
+    background-size:cover;
+    
+   
+   
 }
 
 .paginaPrincipal, .seccionStand{
@@ -190,7 +166,7 @@ body{
 }
 .foto1{
     grid-area: img1;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .foto1:hover {
     opacity: 1;
@@ -198,42 +174,42 @@ body{
 
 .foto2{
     grid-area: img2;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .foto2:hover {
     opacity: 1;
     transition-duration: 1s;}
 .foto3{
     grid-area: img3;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .foto3:hover {
     opacity: 1;
     transition-duration: 1s;}
 .foto4{
     grid-area: img4;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .foto4:hover {
     opacity: 1;
     transition-duration: 1s;}
 .foto5{
     grid-area: img5;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .foto5:hover {
     opacity: 1;
     transition-duration: 1s;}
 .foto6{
     grid-area: img6;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .foto6:hover {
     opacity: 1;
     transition-duration: 1s;}
 .foto7{ 
     grid-area: img7;  
-     opacity: 0.6; 
+     opacity: 0.8; 
 }
 .foto7:hover {
     opacity: 1;
@@ -292,13 +268,13 @@ body{
 
 .fotoStaff:hover{
     -webkit-transform:scale(1.6);transform:scale(1.6);
-    transition-duration: 2s;}
+    transition-duration: 1s;}
 .parrafoEmpresa ,.parrafoImportanciaMarketing, 
 .staffDiseño ,.parrafos3d, .parrafoStand{
     width: 75%;
     border: solid 2px blanchedalmond;
     border-radius: 50px 50px ;
-    box-shadow: 7px 7px 15px #592A08;
+    box-shadow: 7px 7px 56px #0f0b08;
     margin-bottom: 70px;
     padding: 20px;
     background-color: rgb(186, 180, 180);
@@ -370,13 +346,17 @@ body{
 }
 
 .sectorFotosLink:hover .fotoStand {
-    -webkit-transform:scale(1.3);transform:scale(1.3);}
+   
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    transition-duration: 2s;}
 
 .sectorFotosLink:hover .fotoImpresiones3d{
-    -webkit-transform:scale(1.3);transform:scale(1.3);}
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    transition-duration: 2s;}
 
 .sectorFotosLink:hover .fotoCarteleria{
-    -webkit-transform:scale(1.3);transform:scale(1.3);}
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+     transition-duration: 2s;}
 
 
 /*footer con grid*/
