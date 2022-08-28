@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Did Carteleria</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     
     
 </head>
 
-<body>
+<body class="cuerpo-principal">
     <header class="headerConGrid">
         <section class="sectorLogo">
             <img src="../imagenesproyecto/logo2-removebg-preview.png" alt="" class="logo11">
@@ -76,27 +76,30 @@
 
   
     
-<main>
+<main class="seccion-contacto">
 
-    <h2 class="tituloContacto"> Contactenos</h2>
+    <h2 class="seccion-contacto-titulo"> Contactenos</h2>
 
-    <section class="fomrularioContacto">
+    <section class="seccion-contacto-formulario">
 
         <form action="">
 
-            <label for="nombre">Nombre: </label>
-              <input type="text" name="nombre" id="nombre" placeholder="inserte su nombre"><br>
-             <label for="telefono">Telefono:</label>
-              <input type="number" name="telefono" id="telefono" placeholder="inserte su telefono"><br> 
-             <label for="mail">Mail:</label>
-              <input type="mail" name="mail" id="mail" placeholder="inserte su Mail"><br>
-             <label for="consulta">Consulta:</label>
-              <input type=" text" name="consulta" id="consulta"  placeholder="inserte su Consulta"><br>
+            <label for="nombre" class="seccion-contacto-formulario-etiqueta-ppal">Nombre: </label>
+              <input type="text" name="nombre" class="seccion-contacto-formulario-etiqueta" placeholder="inserte su nombre"><br>
+             <label for="telefono" class="seccion-contacto-formulario-etiqueta-ppal">Telefono:</label>
+              <input type="number" name="telefono" class="seccion-contacto-formulario-etiqueta" placeholder="inserte su telefono"><br> 
+             <label for="mail" class="seccion-contacto-formulario-etiqueta-ppal">Mail:</label>
+              <input type="mail" name="mail" class="seccion-contacto-formulario-etiqueta" placeholder="inserte su Mail"><br>
+             <label for="consulta" class="seccion-contacto-formulario-etiqueta-ppal">Consulta:</label>
+              <input type=" text" name="consulta" class="seccion-contacto-formulario-etiqueta" id="consulta" placeholder="inserte su Consulta"><br>
              <button class="btn btn-outline-success" type="submit">Enviar</button>
 
         </form>
 
-        <a href="https://goo.gl/maps/PpCykufP1Vb4p26W7" target="_blank"> <img src="../imagenesproyecto/mapaubicaccion.jpg" alt="mapa ubicaccion" id="fotoMapa"></a>
+        <div> <h2 class="seccion-contacto-titulo-mapa"> Haz click en la imagen para ser redirigido</h2>
+
+        <a href="https://goo.gl/maps/PpCykufP1Vb4p26W7" target="_blank"> <img src="../imagenesproyecto/mapaubicaccion.jpg" alt="mapa ubicaccion" class="seccion-contacto-foto-mapa"></a>
+    </div>
        
 
     </section>

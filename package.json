@@ -1,0 +1,23 @@
+{
+  "name": "proyecto_gustavo_de_rosas_coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss":"node-sass --watch scss -o css"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derosasgustavo/proyecto_coder_de_rosas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derosasgustavo/proyecto_coder_de_rosas/issues"
+  },
+  "homepage": "https://github.com/derosasgustavo/proyecto_coder_de_rosas#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
