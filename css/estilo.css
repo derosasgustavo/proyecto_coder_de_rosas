@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*  */
 * {
   margin: 0px;
@@ -35,16 +36,22 @@
   .headerConGrid .sectorTitulo {
     grid-area: titulo;
     color: #0c0b0a;
-    font-size: 50px;
+    font-size: 80px;
     display: flex;
     flex-wrap: wrap;
     animation-duration: 2s;
-    animation-name: slidein; }
+    animation-name: slidein;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: 600; }
   .headerConGrid .sectorSubTitulo {
     grid-area: subtitulo;
     color: orangered;
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: 600; }
   .headerConGrid .sectorTelefono {
     grid-area: telefono; }
   .headerConGrid .logo11 {
@@ -65,6 +72,146 @@
 .sticky-top .d-flex .btn-outline-success, .logo-whatsapp .d-flex .btn-outline-success {
   color: orangered;
   border-color: #ff9500; }
+
+/*pagina index carrousel */
+.sector-carrousel .carousel-item {
+  margin-top: 10px;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .sector-carrousel .carousel-item .link-carrousel-foto {
+    color: orangered; }
+  .sector-carrousel .carousel-item .carousel-caption {
+    color: orangered;
+    font-size: 2em; }
+
+/*pagina index sector ppal media chico// fotos c/link */
+.pagina-principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .pagina-principal .sector-fotos-link {
+    margin-top: 60px;
+    margin-bottom: 60px; }
+    .pagina-principal .sector-fotos-link .sector-fotos-link-foto {
+      width: 250px;
+      height: 250px;
+      box-shadow: 7px 7px 15px #592A08;
+      border-radius: 50px 50px; }
+    .pagina-principal .sector-fotos-link .sector-fotos-link-foto:hover {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.3);
+      transition-duration: 2s; }
+
+/*pagina index sector parrafos */
+.presentacion-empresa, .importancia-marketing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 10px; }
+  .presentacion-empresa .parrafo-empresa, .presentacion-empresa .parrafo-importancia-marketing, .importancia-marketing .parrafo-empresa, .importancia-marketing .parrafo-importancia-marketing {
+    width: 75%;
+    border: solid 2px blanchedalmond;
+    border-radius: 50px 50px;
+    box-shadow: 7px 7px 56px #0f0b08;
+    margin-bottom: 70px;
+    padding: 20px;
+    background-color: #bab4b4; }
+    .presentacion-empresa .parrafo-empresa .titulo-secundario-empresa, .presentacion-empresa .parrafo-empresa .titulo-secundario-marketing, .presentacion-empresa .parrafo-importancia-marketing .titulo-secundario-empresa, .presentacion-empresa .parrafo-importancia-marketing .titulo-secundario-marketing, .importancia-marketing .parrafo-empresa .titulo-secundario-empresa, .importancia-marketing .parrafo-empresa .titulo-secundario-marketing, .importancia-marketing .parrafo-importancia-marketing .titulo-secundario-empresa, .importancia-marketing .parrafo-importancia-marketing .titulo-secundario-marketing {
+      color: orangered;
+      margin-bottom: 50px;
+      align-content: center; }
+
+.seccion-staff .seccion-staff-foto-parrafo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px; }
+  .seccion-staff .seccion-staff-foto-parrafo .staff-diseño {
+    width: 75%;
+    border: solid 2px blanchedalmond;
+    border-radius: 50px 50px;
+    box-shadow: 7px 7px 56px #0f0b08;
+    margin-bottom: 70px;
+    padding: 20px;
+    background-color: #bab4b4; }
+  .seccion-staff .seccion-staff-foto-parrafo .foto-staff {
+    width: 70px;
+    height: 70px;
+    box-shadow: 7px 7px 15px #592A08;
+    border-radius: 50px 50px;
+    margin-left: 20%; }
+  .seccion-staff .seccion-staff-foto-parrafo .titulo-staff {
+    margin-left: 20%; }
+  .seccion-staff .seccion-staff-foto-parrafo .staff-diseño {
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20%;
+    margin-bottom: 100px; }
+  .seccion-staff .seccion-staff-foto-parrafo .foto-staff:hover {
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    transition-duration: 1s; }
+
+/*pagina carteleria */
+.seccion-fotos-carteleria {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: 10em 10em 10em 10em;
+  grid-template-areas: " img1 img1 img2 img2" " img1 img1 img2 img2" "img3 img4 img5 img6" "img3 img4 img5 img7";
+  gap: 30px; }
+  .seccion-fotos-carteleria .fotoGrid {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px 50px;
+    box-shadow: 7px 7px 15px #592A08; }
+  .seccion-fotos-carteleria .foto1 {
+    grid-area: img1;
+    opacity: 0.8; }
+  .seccion-fotos-carteleria .foto1:hover {
+    opacity: 1;
+    transition-duration: 1s; }
+  .seccion-fotos-carteleria .foto2 {
+    grid-area: img2;
+    opacity: 0.8; }
+  .seccion-fotos-carteleria .foto2:hover {
+    opacity: 1;
+    transition-duration: 1s; }
+  .seccion-fotos-carteleria .foto3 {
+    grid-area: img3;
+    opacity: 0.8; }
+  .seccion-fotos-carteleria .foto3:hover {
+    opacity: 1;
+    transition-duration: 1s; }
+  .seccion-fotos-carteleria .foto4 {
+    grid-area: img4;
+    opacity: 0.8; }
+  .seccion-fotos-carteleria .foto4:hover {
+    opacity: 1;
+    transition-duration: 1s; }
+  .seccion-fotos-carteleria .foto5 {
+    grid-area: img5;
+    opacity: 0.8; }
+  .seccion-fotos-carteleria .foto5:hover {
+    opacity: 1;
+    transition-duration: 1s; }
+  .seccion-fotos-carteleria .foto6 {
+    grid-area: img6;
+    opacity: 0.8; }
+  .seccion-fotos-carteleria .foto6:hover {
+    opacity: 1;
+    transition-duration: 1s; }
+  .seccion-fotos-carteleria .foto7 {
+    grid-area: img7;
+    opacity: 0.8; }
+  .seccion-fotos-carteleria .foto7:hover {
+    opacity: 1;
+    transition-duration: 1s; }
 
 /*pagina impresiones 3d */
 .Titulo-Principal-3d {
@@ -214,3 +361,11 @@
   display: inline-block;
   width: 60px;
   height: 60px; }
+
+@media screen and (max-width: 767px) {
+  #carouselExampleCaptions {
+    display: none; } }
+
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+  .pagina-principal {
+    display: none; } }
