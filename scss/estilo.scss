@@ -1,5 +1,9 @@
 
- /*  */ 
+ /* variables decl */ 
+
+$parrafos-color-fondo: rgb(186, 180, 180);
+$sombras-objetos: 7px 7px 15px #592A08;
+
 *{
     margin: 0px;
     padding: 0px;
@@ -105,7 +109,7 @@
                                                                  margin-bottom:60px;
                                                                  .sector-fotos-link-foto{  width: 250px;
                                                                                             height: 250px;
-                                                                                            box-shadow: 7px 7px 15px #592A08;
+                                                                                            box-shadow: $sombras-objetos;
                                                                                             border-radius: 50px 50px ;    }
                                                                 .sector-fotos-link-foto:hover {-webkit-transform:scale(1.3);transform:scale(1.3);
                                                                     transition-duration: 2s;}
@@ -124,13 +128,13 @@
                     .parrafo-empresa, .parrafo-importancia-marketing { width: 75%;
                                     border: solid 2px blanchedalmond;
                                     border-radius: 50px 50px ;
-                                    box-shadow: 7px 7px 56px #0f0b08;
+                                    box-shadow: $sombras-objetos;
                                     margin-bottom: 70px;
                                     padding: 20px;
-                                    background-color: rgb(186, 180, 180);
+                                    background-color:$parrafos-color-fondo;
                                 .titulo-secundario-empresa, .titulo-secundario-marketing {color:orangered;
-                                    margin-bottom: 50px;     
-                                    align-content: center;}
+                                                                                            margin-bottom: 50px;     
+                                                                                            align-content: center;}
                             }
                         }
 
@@ -145,14 +149,14 @@
                                     .staff-diseño{  width: 75%;
                                                     border: solid 2px blanchedalmond;
                                                     border-radius: 50px 50px ;
-                                                    box-shadow: 7px 7px 56px #0f0b08;
+                                                    box-shadow: $sombras-objetos;
                                                     margin-bottom: 70px;
                                                     padding: 20px;
-                                                    background-color: rgb(186, 180, 180);   }
+                                                    background-color:$parrafos-color-fondo;   }
                                     .foto-staff {
                                         width: 70px;
                                         height: 70px;
-                                        box-shadow: 7px 7px 15px #592A08;
+                                        box-shadow: $sombras-objetos;
                                         border-radius: 50px 50px ;
                                         margin-left: 20%;
                                     }
@@ -184,7 +188,7 @@
                                     width: 100%;
                                     height: 100%;
                                     border-radius: 50px 50px ;
-                                    box-shadow: 7px 7px 15px #592A08;}
+                                    box-shadow: $sombras-objetos;}
                                 .foto1{
                                     grid-area: img1;
                                     opacity: 0.8; }
@@ -245,7 +249,7 @@
                            }
             .foto-trabajos-3d-imagen{   width: 250px;
                                         height: 250px;
-                                        box-shadow: 7px 7px 15px #592A08;
+                                        box-shadow: $sombras-objetos;
                                         border-radius: 50px 50px ; 
                                         margin-top: 20px; }
             .parrafos-3d{   display: flex;
@@ -254,11 +258,11 @@
                             width: 90%;
                             border: solid 2px blanchedalmond;
                             border-radius: 50px 50px ;
-                            box-shadow: 7px 7px 56px #0f0b08;
+                            box-shadow: $sombras-objetos;
                             margin-bottom: 10%;
                             margin-top:10%;
                             padding: 20px;
-                            background-color: rgb(186, 180, 180);
+                            background-color:$parrafos-color-fondo;
                             margin-left:auto;
                             margin-right:auto;
     
@@ -283,7 +287,7 @@
                     justify-content:space-around;
                     .fotos-stand{  width: 250px;
                                     height: 250px;
-                                    box-shadow: 7px 7px 15px #592A08;
+                                    box-shadow:$sombras-objetos;
                                     border-radius: 50px 50px ; 
                                     margin-top: 20px; }
                     }
@@ -293,11 +297,11 @@
                         width: 90%;
                         border: solid 2px blanchedalmond;
                         border-radius: 50px 50px ;
-                        box-shadow: 7px 7px 56px #0f0b08;
+                        box-shadow: $sombras-objetos;
                         margin-bottom: 10%;
                         margin-top:10%;
                         padding: 20px;
-                        background-color: rgb(186, 180, 180);
+                        background-color:$parrafos-color-fondo;
                         margin-left:auto;
                         margin-right:auto;
                         .titulo-seccion-stand{ color:orangered;
@@ -335,32 +339,27 @@
                                                           width: 300px;
                                                           border: solid 2px blanchedalmond;
                                                           border-radius: 50px 50px ;
-                                                          box-shadow: 7px 7px 15px #592A08; }
+                                                          box-shadow: $sombras-objetos; }
                     #consulta {height: 200px; }
                     
                     .seccion-contacto-mapa{
                         display:flex;
                         flex-direction: column;
-                       
                         height: 75%;
                         width: 75%;
-                        .seccion-contacto-foto-mapa{     width: 75%;
-                                                    height: 100%;
-                                                    margin-left: 20%;
-                                                    margin-top:20px;
-                                                 
-                                                    border: solid 2px blanchedalmond;
-                                                    border-radius: 50px 50px ;
-                                                    box-shadow: 7px 7px 15px #592A08;
-                                                      }}
-                    .btn-outline-success { color:orangered;
+                                     .seccion-contacto-foto-mapa{ width: 75%;
+                                                                height: 100%;
+                                                                margin-left: 20%;
+                                                                margin-top:20px;
+                                                                border: solid 2px blanchedalmond;
+                                                                border-radius: 50px 50px ;
+                                                                box-shadow: $sombras-objetos; }
+                                            }
+                                     .btn-outline-success { color:orangered;
                                             border-width: 4px;
                                             border-color: rgb(227, 92, 14); 
-                                            font-weight: 500;
-                    }
-                    .seccion-contacto-titulo-mapa{margin-left: 20%;
-
-                    }
+                                            font-weight: 500;  }
+                                     .seccion-contacto-titulo-mapa{margin-left: 20%; }
 }
 
  /*footer todas las paginas*/
