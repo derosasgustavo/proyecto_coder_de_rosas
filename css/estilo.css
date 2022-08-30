@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*  */
+/* variables decl */
 * {
   margin: 0px;
   padding: 0px;
@@ -116,7 +116,7 @@
     width: 75%;
     border: solid 2px blanchedalmond;
     border-radius: 50px 50px;
-    box-shadow: 7px 7px 56px #0f0b08;
+    box-shadow: 7px 7px 15px #592A08;
     margin-bottom: 70px;
     padding: 20px;
     background-color: #bab4b4; }
@@ -135,7 +135,7 @@
     width: 75%;
     border: solid 2px blanchedalmond;
     border-radius: 50px 50px;
-    box-shadow: 7px 7px 56px #0f0b08;
+    box-shadow: 7px 7px 15px #592A08;
     margin-bottom: 70px;
     padding: 20px;
     background-color: #bab4b4; }
@@ -245,7 +245,7 @@
   width: 90%;
   border: solid 2px blanchedalmond;
   border-radius: 50px 50px;
-  box-shadow: 7px 7px 56px #0f0b08;
+  box-shadow: 7px 7px 15px #592A08;
   margin-bottom: 10%;
   margin-top: 10%;
   padding: 20px;
@@ -287,7 +287,7 @@
   width: 90%;
   border: solid 2px blanchedalmond;
   border-radius: 50px 50px;
-  box-shadow: 7px 7px 56px #0f0b08;
+  box-shadow: 7px 7px 15px #592A08;
   margin-bottom: 10%;
   margin-top: 10%;
   padding: 20px;
