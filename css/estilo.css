@@ -331,22 +331,26 @@
     box-shadow: 7px 7px 15px #592A08; }
   .seccion-contacto #consulta {
     height: 200px; }
-  .seccion-contacto .seccion-contacto-foto-mapa {
-    width: 550px;
-    height: 350px;
-    margin-left: 10%;
-    margin-top: 20px;
-    border: solid 2px blanchedalmond;
-    border-radius: 50px 50px;
-    box-shadow: 7px 7px 15px #592A08;
-    margin-right: 100px; }
+  .seccion-contacto .seccion-contacto-mapa {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 75%; }
+    .seccion-contacto .seccion-contacto-mapa .seccion-contacto-foto-mapa {
+      width: 75%;
+      height: 100%;
+      margin-left: 20%;
+      margin-top: 20px;
+      border: solid 2px blanchedalmond;
+      border-radius: 50px 50px;
+      box-shadow: 7px 7px 15px #592A08; }
   .seccion-contacto .btn-outline-success {
     color: orangered;
     border-width: 4px;
     border-color: #e35c0e;
     font-weight: 500; }
   .seccion-contacto .seccion-contacto-titulo-mapa {
-    margin-left: 10%; }
+    margin-left: 20%; }
 
 /*footer todas las paginas*/
 .footer .titulo-footer {
@@ -364,7 +368,15 @@
 
 @media screen and (max-width: 767px) {
   #carouselExampleCaptions {
-    display: none; } }
+    display: none; }
+  .seccion-fotos-carteleria {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    align-items: center; }
+    .seccion-fotos-carteleria .foto1, .seccion-fotos-carteleria .foto2, .seccion-fotos-carteleria .foto3, .seccion-fotos-carteleria .foto4, .seccion-fotos-carteleria .foto5, .seccion-fotos-carteleria .foto6, .seccion-fotos-carteleria .foto7 {
+      opacity: 1;
+      width: 75%; } }
 
 @media only screen and (min-width: 768px) and (max-width: 2000px) {
   .pagina-principal {
