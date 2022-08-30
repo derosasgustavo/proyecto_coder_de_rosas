@@ -337,20 +337,28 @@
                                                           border-radius: 50px 50px ;
                                                           box-shadow: 7px 7px 15px #592A08; }
                     #consulta {height: 200px; }
-                    .seccion-contacto-foto-mapa{     width: 550px;
-                                                    height: 350px;
-                                                    margin-left: 10%;
+                    
+                    .seccion-contacto-mapa{
+                        display:flex;
+                        flex-direction: column;
+                       
+                        height: 75%;
+                        width: 75%;
+                        .seccion-contacto-foto-mapa{     width: 75%;
+                                                    height: 100%;
+                                                    margin-left: 20%;
                                                     margin-top:20px;
+                                                 
                                                     border: solid 2px blanchedalmond;
                                                     border-radius: 50px 50px ;
                                                     box-shadow: 7px 7px 15px #592A08;
-                                                    margin-right: 100px;  }
+                                                      }}
                     .btn-outline-success { color:orangered;
                                             border-width: 4px;
                                             border-color: rgb(227, 92, 14); 
                                             font-weight: 500;
                     }
-                    .seccion-contacto-titulo-mapa{margin-left: 10%;
+                    .seccion-contacto-titulo-mapa{margin-left: 20%;
 
                     }
 }
@@ -369,11 +377,19 @@
     }
  @media screen and (max-width: 767px){
         #carouselExampleCaptions {display:none;}
-      }
+        .seccion-fotos-carteleria{
+                                display:flex;
+                                flex-direction: column;
+                                opacity:1;
+                                align-items:center;
+                                .foto1, .foto2, .foto3, .foto4, .foto5, .foto6, .foto7 { opacity: 1;
+                                                                                         width: 75%;  }
+                                 }
+                                      }
+      
 @media only screen and (min-width: 768px) and (max-width: 2000px){
         .pagina-principal{
-            display:none;
-        }
-    }
+            display:none;  }
+                                                                 }
 
 
