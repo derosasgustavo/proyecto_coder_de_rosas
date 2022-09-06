@@ -1,5 +1,14 @@
 @charset "UTF-8";
 /* variables decl */
+/* para map get definiendo la variable*/
+/*mapa */
+.color-naranja {
+  color: #872d00; }
+
+.color-amarilla {
+  color: #e7d33f; }
+
+/*estableciendo variable para mixing*/
 * {
   margin: 0px;
   padding: 0px;
@@ -49,7 +58,7 @@
     display: flex;
     flex-wrap: wrap;
     font-family: 'Tangerine', serif;
-    font-size: 48px;
+    font-size: 2em;
     text-shadow: 4px 4px 4px #aaa;
     font-weight: 600; }
   .headerConGrid .sectorTelefono {
@@ -168,7 +177,7 @@
   .seccion-fotos-carteleria .fotoGrid {
     width: 100%;
     height: 100%;
-    border-radius: 50px 50px;
+    border-radius: 50px 10px;
     box-shadow: 7px 7px 15px #592A08; }
   .seccion-fotos-carteleria .foto1 {
     grid-area: img1;
@@ -243,6 +252,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 90%;
+  width: 75%;
   border: solid 2px blanchedalmond;
   border-radius: 50px 50px;
   box-shadow: 7px 7px 15px #592A08;
@@ -318,7 +328,7 @@
     justify-content: space-around; }
   .seccion-contacto .seccion-contacto-formulario-etiqueta-ppal {
     color: orangered;
-    font-size: large;
+    font-size: 2em;
     font-weight: 500; }
   .seccion-contacto .seccion-contacto-formulario-etiqueta {
     display: flex;
