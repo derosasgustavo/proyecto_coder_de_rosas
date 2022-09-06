@@ -245,7 +245,15 @@
   height: 250px;
   box-shadow: 7px 7px 15px #592A08;
   border-radius: 50px 50px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  animation-duration: 2s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
 
 .parrafos-3d {
   display: flex;
@@ -288,7 +296,15 @@
     height: 250px;
     box-shadow: 7px 7px 15px #592A08;
     border-radius: 50px 50px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    animation-duration: 2s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
 
 .seccion-parrafo-stand {
   display: flex;
@@ -325,7 +341,15 @@
     display: inline-flex;
     align-content: center;
     flex-wrap: wrap;
-    justify-content: space-around; }
+    justify-content: space-around;
+    animation-duration: 2s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
   .seccion-contacto .seccion-contacto-formulario-etiqueta-ppal {
     color: orangered;
     font-size: 2em;
