@@ -201,8 +201,8 @@ $parrafos-principales:(
   .seccion-fotos-carteleria {
                                 margin: 30px;    
                                 display:grid;
-                                grid-template-columns: 2fr 2fr 2fr 2fr;
-                                grid-template-rows: 10em 10em 10em 10em;
+                                grid-template-columns: 1.8fr 1.8fr 1.8fr 1.8fr;
+                                grid-template-rows: 8em 8em 8em 8em;
                                 grid-template-areas: " img1 img1 img2 img2"
                                                     " img1 img1 img2 img2"
                                                     "img3 img4 img5 img6"
@@ -217,46 +217,109 @@ $parrafos-principales:(
                                     box-shadow: $sombras-objetos;}
                                 .foto1{
                                     grid-area: img1;
-                                    opacity: 0.8; }
+                                    opacity: 0.9;
+                                    animation-duration: 1s;
+                                    animation-name: slidein;  }
+                                @keyframes slidein {
+                                    from {
+                                    margin-left: 100%;
+                                    }
+                                    to {
+                                    margin-left: 0%;
+                                    } }
                                 .foto1:hover {
                                     opacity: 1;
-                                    transition-duration: 1s;}
+                                    transition-duration: 0.51s;}
                                 .foto2{
                                     grid-area: img2;
-                                    opacity: 0.8; }
+                                    opacity: 0.9;
+                                 animation-duration: 2s;
+                                        animation-name: slidein;  }
+                                    @keyframes slidein {
+                                        from {
+                                        margin-left: 100%;
+                                        }
+                                        to {
+                                        margin-left: 0%;
+                                        } }
                                 .foto2:hover {
                                     opacity: 1;
-                                    transition-duration: 1s;}
+                                    transition-duration: 0.51s;}
                                 .foto3{
                                     grid-area: img3;
-                                    opacity: 0.8; }
+                                    opacity: 0.9;
+                                    animation-duration: 4s;
+                                    animation-name: slidein;  }
+                                @keyframes slidein {
+                                    from {
+                                    margin-left: 100%;
+                                    }
+                                    to {
+                                    margin-left: 0%;
+                                    } }
                                 .foto3:hover {
                                     opacity: 1;
-                                    transition-duration: 1s;}
+                                    transition-duration: 0.51s;}
                                 .foto4{                
                                     grid-area: img4;
-                                    opacity: 0.8; }
+                                    opacity: 0.9; 
+                                 animation-duration: 2s;
+                                        animation-name: slidein;  }
+                                    @keyframes slidein {
+                                        from {
+                                        margin-left: 100%;
+                                        }
+                                        to {
+                                        margin-left: 0%;
+                                        }}
                                 .foto4:hover {
                                     opacity: 1;
-                                    transition-duration: 1s;}
+                                    transition-duration: 0.51s;}
                                 .foto5{
                                     grid-area: img5;
-                                    opacity: 0.8;  }
+                                    opacity: 0.9;
+                                 animation-duration: 1s;
+                                        animation-name: slidein;  }
+                                    @keyframes slidein {
+                                        from {
+                                        margin-left: 100%;
+                                        }
+                                        to {
+                                        margin-left: 0%;
+                                        }  }
                                 .foto5:hover {
                                     opacity: 1;
-                                    transition-duration: 1s;}
+                                    transition-duration: 0.51s;}
                                 .foto6{
                                     grid-area: img6;
-                                    opacity: 0.8;  }
+                                    opacity: 0.9; 
+                                 animation-duration: 4s;
+                                        animation-name: slidein;  }
+                                    @keyframes slidein {
+                                        from {
+                                        margin-left: 100%;
+                                        }
+                                        to {
+                                        margin-left: 0%;
+                                        } }
                                 .foto6:hover {
                                     opacity: 1;
-                                    transition-duration: 1s;}
+                                    transition-duration: 0.51s;}
                                 .foto7{ 
                                     grid-area: img7;  
-                                    opacity: 0.8;  }
+                                    opacity: 0.9; 
+                                 animation-duration: 3s;
+                                        animation-name: slidein;  }
+                                    @keyframes slidein {
+                                        from {
+                                        margin-left: 100%;
+                                        }
+                                        to {
+                                        margin-left: 0%;
+                                        } }
                                 .foto7:hover {
                                     opacity: 1;
-                                    transition-duration: 1s;}}
+                                    transition-duration: 0.51s;}}
   /*pagina impresiones 3d */   
             .Titulo-Principal-3d {margin-top:20px; 
                                 margin-bottom:20px;
