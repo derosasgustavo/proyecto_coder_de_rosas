@@ -170,8 +170,8 @@
 .seccion-fotos-carteleria {
   margin: 30px;
   display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr;
-  grid-template-rows: 10em 10em 10em 10em;
+  grid-template-columns: 1.8fr 1.8fr 1.8fr 1.8fr;
+  grid-template-rows: 8em 8em 8em 8em;
   grid-template-areas: " img1 img1 img2 img2" " img1 img1 img2 img2" "img3 img4 img5 img6" "img3 img4 img5 img7";
   gap: 30px; }
   .seccion-fotos-carteleria .fotoGrid {
@@ -181,46 +181,102 @@
     box-shadow: 7px 7px 15px #592A08; }
   .seccion-fotos-carteleria .foto1 {
     grid-area: img1;
-    opacity: 0.8; }
+    opacity: 0.9;
+    animation-duration: 1s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
   .seccion-fotos-carteleria .foto1:hover {
     opacity: 1;
-    transition-duration: 1s; }
+    transition-duration: 0.51s; }
   .seccion-fotos-carteleria .foto2 {
     grid-area: img2;
-    opacity: 0.8; }
+    opacity: 0.9;
+    animation-duration: 2s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
   .seccion-fotos-carteleria .foto2:hover {
     opacity: 1;
-    transition-duration: 1s; }
+    transition-duration: 0.51s; }
   .seccion-fotos-carteleria .foto3 {
     grid-area: img3;
-    opacity: 0.8; }
+    opacity: 0.9;
+    animation-duration: 4s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
   .seccion-fotos-carteleria .foto3:hover {
     opacity: 1;
-    transition-duration: 1s; }
+    transition-duration: 0.51s; }
   .seccion-fotos-carteleria .foto4 {
     grid-area: img4;
-    opacity: 0.8; }
+    opacity: 0.9;
+    animation-duration: 2s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
   .seccion-fotos-carteleria .foto4:hover {
     opacity: 1;
-    transition-duration: 1s; }
+    transition-duration: 0.51s; }
   .seccion-fotos-carteleria .foto5 {
     grid-area: img5;
-    opacity: 0.8; }
+    opacity: 0.9;
+    animation-duration: 1s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
   .seccion-fotos-carteleria .foto5:hover {
     opacity: 1;
-    transition-duration: 1s; }
+    transition-duration: 0.51s; }
   .seccion-fotos-carteleria .foto6 {
     grid-area: img6;
-    opacity: 0.8; }
+    opacity: 0.9;
+    animation-duration: 4s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
   .seccion-fotos-carteleria .foto6:hover {
     opacity: 1;
-    transition-duration: 1s; }
+    transition-duration: 0.51s; }
   .seccion-fotos-carteleria .foto7 {
     grid-area: img7;
-    opacity: 0.8; }
+    opacity: 0.9;
+    animation-duration: 3s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
   .seccion-fotos-carteleria .foto7:hover {
     opacity: 1;
-    transition-duration: 1s; }
+    transition-duration: 0.51s; }
 
 /*pagina impresiones 3d */
 .Titulo-Principal-3d {
@@ -245,7 +301,15 @@
   height: 250px;
   box-shadow: 7px 7px 15px #592A08;
   border-radius: 50px 50px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  animation-duration: 2s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
 
 .parrafos-3d {
   display: flex;
@@ -288,7 +352,15 @@
     height: 250px;
     box-shadow: 7px 7px 15px #592A08;
     border-radius: 50px 50px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    animation-duration: 2s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
 
 .seccion-parrafo-stand {
   display: flex;
@@ -325,7 +397,15 @@
     display: inline-flex;
     align-content: center;
     flex-wrap: wrap;
-    justify-content: space-around; }
+    justify-content: space-around;
+    animation-duration: 2s;
+    animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
   .seccion-contacto .seccion-contacto-formulario-etiqueta-ppal {
     color: orangered;
     font-size: 2em;
