@@ -161,7 +161,8 @@ $parrafos-principales:(
                                     background-color:$parrafos-color-fondo;
                                 .titulo-secundario-empresa, .titulo-secundario-marketing {color:orangered;
                                                                                             margin-bottom: 50px;     
-                                                                                            align-content: center;}
+                                                                                            align-content: center;
+                                                                                            text-shadow: $sombras-objetos;}
                             }
                         }
 
@@ -186,7 +187,8 @@ $parrafos-principales:(
                                         border-radius: 50px 50px ;
                                         margin-left: 20%;
                                     }
-                                    .titulo-staff{ margin-left: 20%;}
+                                    .titulo-staff{ margin-left: 20%;
+                                                    text-shadow: $sombras-objetos;}
                                     .staff-diseño {
                                         justify-content:space-around;
                                         align-items: center;
@@ -329,12 +331,16 @@ $parrafos-principales:(
                                 .titulo-principal-3d-titulo{
                                     margin-left:auto;
                                     margin-right:auto;
-                                    margin-top:10%;
+                                    margin-top:5%;
+                                    text-shadow: $sombras-objetos;
                              }}
              .fotos-Trabajos-3d {   display:flex;
                                     flex-direction: row;
                                     flex-wrap: wrap;
                                     justify-content:space-around;
+
+                                    .fig-caption-fotos3D {display: flex;
+                                                         justify-content: space-around;}
                            }
             .foto-trabajos-3d-imagen{   width: 250px;
                                         height: 250px;
@@ -364,7 +370,8 @@ $parrafos-principales:(
                             margin-left:map-get($estilo-parrafo, margen-izquierdo);
                             margin-right:map-get($estilo-parrafo, margen-derecho);
     
-            .subTitulo3d { color:orangered;}
+            .subTitulo3d { color:orangered;
+                             text-shadow: $sombras-objetos;}
         }
 
  /*pagina stand */ 
@@ -377,12 +384,15 @@ $parrafos-principales:(
                             margin-left:auto;
                             margin-right:auto;
                             justify-content: center; 
-                         .titulo-principal-stand{ margin-top:10%;                                 
+                         .titulo-principal-stand{ margin-top:5%;       
+                                                  text-shadow: $sombras-objetos;                         
  }}
 .seccion-fotos-stand{display:flex;
                     flex-direction: row;
                     flex-wrap: wrap;
                     justify-content:space-around;
+                    .fig-caption-stand {display: flex;
+                                        justify-content: space-around;}
                     .fotos-stand{  width: 250px;
                                     height: 250px;
                                     box-shadow:$sombras-objetos;
@@ -415,6 +425,7 @@ $parrafos-principales:(
                             margin-left:auto;
                             margin-right:auto;
                             margin-bottom:20px;
+                            text-shadow: $sombras-objetos;
 
                         }
 
@@ -427,7 +438,8 @@ $parrafos-principales:(
                 flex-wrap: wrap;
                 justify-content: center;
                 .seccion-contacto-titulo{ margin-top: 50px;
-                                        color:orangered; }
+                                        color:orangered;
+                                    text-shadow: $sombras-objetos; }
                 .seccion-contacto-formulario{
                     margin-top: 80px;
                     height: 100%;
@@ -447,7 +459,8 @@ $parrafos-principales:(
                     } }
                     .seccion-contacto-formulario-etiqueta-ppal{ color:orangered; 
                                                                 font-size:$font-size-s;
-                                                                font-weight: 500; }
+                                                                font-weight: 500;
+                                                            text-shadow: $sombras-objetos;}
                     .seccion-contacto-formulario-etiqueta{display:flex;
                                                           flex-wrap: wrap;
                                                           margin-left: 10%;

@@ -132,7 +132,8 @@
     .presentacion-empresa .parrafo-empresa .titulo-secundario-empresa, .presentacion-empresa .parrafo-empresa .titulo-secundario-marketing, .presentacion-empresa .parrafo-importancia-marketing .titulo-secundario-empresa, .presentacion-empresa .parrafo-importancia-marketing .titulo-secundario-marketing, .importancia-marketing .parrafo-empresa .titulo-secundario-empresa, .importancia-marketing .parrafo-empresa .titulo-secundario-marketing, .importancia-marketing .parrafo-importancia-marketing .titulo-secundario-empresa, .importancia-marketing .parrafo-importancia-marketing .titulo-secundario-marketing {
       color: orangered;
       margin-bottom: 50px;
-      align-content: center; }
+      align-content: center;
+      text-shadow: 7px 7px 15px #592A08; }
 
 .seccion-staff .seccion-staff-foto-parrafo {
   display: flex;
@@ -155,7 +156,8 @@
     border-radius: 50px 50px;
     margin-left: 20%; }
   .seccion-staff .seccion-staff-foto-parrafo .titulo-staff {
-    margin-left: 20%; }
+    margin-left: 20%;
+    text-shadow: 7px 7px 15px #592A08; }
   .seccion-staff .seccion-staff-foto-parrafo .staff-diseño {
     justify-content: space-around;
     align-items: center;
@@ -288,13 +290,17 @@
   .Titulo-Principal-3d .titulo-principal-3d-titulo {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%; }
+    margin-top: 5%;
+    text-shadow: 7px 7px 15px #592A08; }
 
 .fotos-Trabajos-3d {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
+  .fotos-Trabajos-3d .fig-caption-fotos3D {
+    display: flex;
+    justify-content: space-around; }
 
 .foto-trabajos-3d-imagen {
   width: 250px;
@@ -327,7 +333,8 @@
   margin-left: auto;
   margin-right: auto; }
   .parrafos-3d .subTitulo3d {
-    color: orangered; }
+    color: orangered;
+    text-shadow: 7px 7px 15px #592A08; }
 
 /*pagina stand */
 .seccion-principal-stand {
@@ -340,13 +347,17 @@
   margin-right: auto;
   justify-content: center; }
   .seccion-principal-stand .titulo-principal-stand {
-    margin-top: 10%; }
+    margin-top: 5%;
+    text-shadow: 7px 7px 15px #592A08; }
 
 .seccion-fotos-stand {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
+  .seccion-fotos-stand .fig-caption-stand {
+    display: flex;
+    justify-content: space-around; }
   .seccion-fotos-stand .fotos-stand {
     width: 250px;
     height: 250px;
@@ -380,7 +391,8 @@
     color: orangered;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-shadow: 7px 7px 15px #592A08; }
 
 /*pagina contacto */
 .seccion-contacto {
@@ -389,7 +401,8 @@
   justify-content: center; }
   .seccion-contacto .seccion-contacto-titulo {
     margin-top: 50px;
-    color: orangered; }
+    color: orangered;
+    text-shadow: 7px 7px 15px #592A08; }
   .seccion-contacto .seccion-contacto-formulario {
     margin-top: 80px;
     height: 100%;
@@ -409,7 +422,8 @@
   .seccion-contacto .seccion-contacto-formulario-etiqueta-ppal {
     color: orangered;
     font-size: 2em;
-    font-weight: 500; }
+    font-weight: 500;
+    text-shadow: 7px 7px 15px #592A08; }
   .seccion-contacto .seccion-contacto-formulario-etiqueta {
     display: flex;
     flex-wrap: wrap;
